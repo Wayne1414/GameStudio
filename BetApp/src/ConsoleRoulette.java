@@ -336,6 +336,8 @@ public void bet(){
 		
 		displayData(i);
 		System.out.println();
+		System.out.println("\033[H\033[2J");
+		System.out.println();
 		
 		}
 	
