@@ -1,0 +1,2 @@
+# GameStudio
+Betting application
