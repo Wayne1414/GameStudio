@@ -37,7 +37,7 @@ class FileNameReader{
 		try{
 			//Create a File Object to store the file
 			//for processing
-			File file = new File("C:\\Users\\iCafe03\\eclipse-workspace\\PlaySafeCounsouleRoulete.java\\src\\Names.txt");
+			File file = new File("C:\\Users\\iCafe03\\git\\GameStudio\\BetApp\\src\\Names.txt");
 
 			//Check if the file exist and that it is readable
 			if(file.exists() && file.canRead()){
@@ -75,6 +75,7 @@ class FileNameReader{
 	//	into an ArrayList data Structure
 	public ArrayList<String> fetchData(){
 
+		//return the collection
 		return nameCollection;
 
 	}//closed fetchData method
@@ -346,10 +347,7 @@ public void bet(){
 	
 	}
 
-public static void clearScreen() {  
-    System.out.print("\033[H\033[2J");  
-    System.out.flush();  
-} 
+ 
 
 
 
